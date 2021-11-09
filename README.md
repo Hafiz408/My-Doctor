@@ -1,6 +1,7 @@
 # My-Doctor
    " My Doctor " is a web app created using streamlit library in python. It diagnises the disease based on the symptoms and provides us with it's description and precautions. It uses Random Forest classifier to build the model and predicts the output.It also offers another feature i.e. the Explore page where we can see various visuals about the diseases , symptoms and severity of them.
    
+### click the link to visit the site, https://share.streamlit.io/hafiz408/my-doctor/main/app.py
    ## Output :
    
 ![Diagnose1](https://user-images.githubusercontent.com/65387738/140934584-162adb40-4733-43e5-91b5-be252df7e23d.PNG)
