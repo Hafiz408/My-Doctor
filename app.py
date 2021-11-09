@@ -5,7 +5,7 @@ from doc_page import doc
 
 
 col1,col2 = st.sidebar.columns([4,3])
-col1.image("pic\doc 2.jpeg",width=120)
+col1.image("doc 2.jpeg",width=120)
 col2.write("")
 col2.write("")
 col2.write("")
