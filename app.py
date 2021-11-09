@@ -23,3 +23,4 @@ elif choice == 'Explore':
     graphs()
 else:
     doc()
+
