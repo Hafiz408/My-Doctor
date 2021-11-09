@@ -48,23 +48,8 @@ def graphs():
 
 
 def visual2():
-    ss.drop(117,inplace=True)
-    df['severity']=0
-    for i in range(0,len(df)):
-        w=0
-        l=df.iloc[i]['Symptoms']
-        for x in l:
-            x=x.replace(" ", "")
-            w+=int(ss[ss['Symptom']==x]['weight'])
-        s=float(w)/int(len(l))
-        df['severity'][i]=round(s,2)
-
-    dict={}
-    for x in df['Disease'].unique():
-        dict[x]=df[df['Disease']==x]['severity'].mean()
-    vc=pd.DataFrame(dict,index=['severity'])
-    vc=vc.T
-
+    
+    vc=df.copy()
 
     st.write("""
         #
