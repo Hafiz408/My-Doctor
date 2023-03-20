@@ -71,13 +71,13 @@ def show_predict_page():
             st.write("""### You are diagonised with """+ output +""".""")
             
             st.write("")
-            with st.expander("# Description"):
+            with st.expander("Description"):
                 pd.options.display.max_colwidth = 1000
                 d = description[description['Disease']==output]['Description'].to_string()[2:]
                 st.write(d)
 
             st.write("")
-            with st.expander("# Precaution"):
+            with st.expander("Precaution"):
                 pd.options.display.max_colwidth = 1000
                 precaution.fillna(0,inplace=True)
                 p = precaution[precaution['Disease']==output]
