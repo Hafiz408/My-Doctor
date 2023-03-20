@@ -21,7 +21,8 @@ description = data["description"]
 
 def show_predict_page():
 
-    st.image("doc 1.jpeg")
+    cols=st.columns([2,4,2])
+    cols[1].image("doc.png", width=250)
     st.title("|.......  My Doctor  ......|")
     st.write("")
     cols = st.columns([1,8,1])

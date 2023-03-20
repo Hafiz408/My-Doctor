@@ -5,13 +5,11 @@ from doc_page import doc
 
 
 col1,col2 = st.sidebar.columns([4,3])
-col1.image("doc 2.jpeg",width=120)
+col1.image("doc.png",width=160)
 col2.write("")
 col2.write("")
 col2.write("")
 col2.write("""# My Doctor""")   
-# st.sidebar.image("pic\doc 2.jpeg",width=100)
-# st.sidebar.write("""# My Doctor""")   
 st.sidebar.write("")
 st.sidebar.write("")
 
